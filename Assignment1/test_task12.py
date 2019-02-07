@@ -2,7 +2,7 @@ import os
 import pandas
 import numpy as np
 
-df = pandas.read_table('task1/input.txt', sep = True, delimiter=',',header=0, encoding='utf-16', escapechar='\\', index_col=0)
+df = pandas.read_table('Assignment1/input.txt', sep = True, delimiter=',',header=0, encoding='utf-16', escapechar='\\', index_col=0)
 
 def test_1():
 	assert(df.shape[0]) == 225
